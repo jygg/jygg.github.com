@@ -1,0 +1,1 @@
+perl createImgCode.pl 广告招牌 印刷画册 各式装订 其他 >tmphtml.txt

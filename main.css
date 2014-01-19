@@ -1,0 +1,185 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	text-align:center;
+	color:#333;
+	font-family:"宋体", "新宋体", Arial, sans-serif;
+	font-size:14px;
+	margin:0 auto;
+	width: 1000px;
+}
+
+
+#container {
+	width:1000px;
+}
+#header {
+	float:left;
+	clear:both;
+}
+#left {
+	float:left;
+	width:220px;
+}
+#content {
+	float:right;
+	width:760px;
+}
+#footer {
+	float:left;
+	clear:both;
+	text-align:center;
+	vertical-align:middle;
+	width:100%;
+	background-image:url(imgs/bottbar.jpg);
+	background-repeat:repeat-x;
+}
+#footer div{
+	margin:8px 0px;
+	font-size: 13px;
+	line-height: 20px;
+}
+
+
+.navigator
+{
+	background-color:#F33;
+	padding: 0px 0px;
+	margin:0 auto;
+	text-align:left;
+}
+.navigator span.vline
+{
+padding:0;
+margin:0;
+border-right:1px solid white;
+}
+.navigator a
+{
+	width:100px;
+	text-decoration:none;
+	color:#000;
+	margin:0 0;
+	padding: 0px 25px;
+	line-height: 32px;
+	height: 32px;
+	font-size: 14px;
+}
+.navigator a:hover,.navigator a.selected {color:#ffffff}
+
+.leftbar1
+{
+	background-image:url(imgs/bar1.jpg);
+	width:auto;
+	text-align:left;
+	padding:0px 30px;
+}
+.leftbar1 span
+{
+	font-size: 14px;
+	line-height: 28px;
+	height: 28px;
+}
+
+.leftimg img
+{
+	width:220px;
+}
+
+.leftbar2
+{
+	background-image:url(imgs/bar2.jpg);
+	width:auto;
+	text-align:left;
+	padding:0px 30px;
+}
+.leftbar2 span
+{
+	font-size: 14px;
+	line-height: 28px;
+	height: 28px;
+}
+
+#content .listbar
+{
+	background-image:url(imgs/listbar.jpg);
+	text-align:left;
+	margin-top: 15px;
+	float: left;
+	width:100%;
+}
+#content .listbar span
+{
+	margin-left: 30px;
+	font-size: 16px;
+	line-height: 28px;
+	height: 28px;
+	color:#ffffff;
+	font-weight: bolder;
+}
+
+#content .imgbox 
+{
+	float:left;
+	margin:10px 5px;
+}
+
+#content .imgbox .imgbox_img
+{
+	height:180px;
+	width: 240px;
+	vertical-align: bottom;
+	display: table-cell;
+	overflow: hidden;
+}
+
+#content .imgbox .imgbox_img img
+{
+	max-height:180px;
+	width: 230px;
+}
+
+#content .imgbox .imgbox_title
+{
+	font-size: 14px;
+	line-height: 22px;
+}
+
+.text
+{
+	margin:15px 0px;
+}
+.text p
+{
+	text-align:left;
+	font-size: 14px;
+	line-height: 24px;
+	margin:0px 0px;
+}
+
+.textleft
+{
+	margin:15px 0px;
+}
+.textleft p
+{
+	text-align:left;
+	font-size: 14px;
+	line-height: 20px;
+	margin:0px 0px;
+}
+
+#left div.text p
+{
+}
+#about
+{
+	text-indent:22px;
+}
+
+
+
+.cleardiv {
+	clear:left;
+}
